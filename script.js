@@ -325,3 +325,5 @@ road.addEventListener('click', () => {
 
 //      localStorage.setItem("todos", JSON.stringify(save));
 //  }
+
+// Kod Sonu!!
