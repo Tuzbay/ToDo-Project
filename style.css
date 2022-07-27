@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+
+
+.body {
+	background-attachment: fixed;
+	background-image: url("./img/safari.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 2rem 4rem;
+	min-height: 92vh;
+}
+
+.input {
+	border: none;
+	border-radius: 10px;
+	font-size: 1.8rem;
+	height: 1rem;
+	margin-bottom: 0.5rem;
+	opacity: 0.9;
+	padding: 20px;
+	text-align: center;
+	width: 97%;
+ }
+
+input::placeholder {
+    text-align: center;
+}
+
+.hr {
+    width: 18%;
+    margin: auto;
+    color: black;
+    height: 0;
+    border-style: solid none none;
+}
+
+.todos{
+    
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ .circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 17px;
+    
+} 
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px 8px;
+}
+
+.star {
+    position: absolute;
+    right: 0;
+    top: 1;
+    margin-right: 2.8rem;
+    
+}
+
+.yellow {
+    color: rgb(202, 191, 34);
+}
+
+   ul .element {
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.75);
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 1rem 8rem 1rem 3.4rem;
+    margin: 0.5rem 0.1rem;
+    width: 89%;
+    border-radius: 10px;
+    
+  } 
+
+  .completed {
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 1rem 8rem 1rem 3.4rem;
+    margin: 0.5rem 0.1rem;
+    width: 89%;
+    text-decoration: line-through;
+    color: #b5b5b5;
+    /* background-color: #d2d2d2; */
+    background-color: #e3dbdb;
+    
+}
+
+  select {
+    font-size: 2rem;
+    height: 2.5rem;
+    width: 10rem;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    background-color: bisque;
+    opacity: 0.7;
+    
+  }
+
+  span {
+    cursor: pointer;
+  }
+
+  .heading  {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+.date {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+#bg{
+    display: inline-block;
+    float: right;
+    margin-top: -15px;
+}
+
+p {
+    margin-bottom: 0.3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+select {
+    margin-left: 6%;
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.heading-main {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    opacity: 0.6;
+    text-align: center;
+    
+}
+
+.element:hover{
+    /* background-color: #e3dbdb; */
+    font-size: 1.35rem;
+}
+
+/* .element:active{
+    background-color: #a4a3a3;
+} */
+
+.resim {
+    background: none;
+}
+
+
+
+/* Hamburger CSS Kodları Aşağıdadır. */
+
+  .hamburger {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Poppins" sans-serif;
+    transition: background-image 0.8s ease-in-out;
+} 
+
+
+
+#btn {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: black;
+    border: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    margin-right: 3rem;
+    height: 40px;
+    width: 40px;
+    
+    
+}
+
+#nav {
+    background-color: rgba(162, 160, 160, 0.512);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 32vh;
+    padding: 1rem;
+    transform: translateY(-300px);
+    transition: transform 0.3s ease-in-out;
+    margin: -1.8rem 4.22rem;
+    width: 20rem;
+    z-index: 1;
+}
+
+#nav.active {
+    transform: translateY(88px);
+}
+
+
+
+#bg-image {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+#nav ul li {
+    padding: 1rem 0;
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+#nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.img {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.img:hover{
+    box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.img:active {
+    opacity: 0.7;
+}
+
+#theme {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+
+hr {
+    margin: -1px;
+    color: black;
+    
+} 

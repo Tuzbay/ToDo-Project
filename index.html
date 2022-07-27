@@ -1,0 +1,70 @@
+<!doctype html>
+      <html>
+        <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>ToDo App</title>
+          <link rel="icon" href="favicon.ico">
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <script src="https://kit.fontawesome.com/3c79492248.js" crossorigin="anonymous"></script>
+          <script src="script.js" defer></script>
+        </head>
+
+        <body class="body hamburger">
+              
+              <div id="container"></div>
+
+              <h1 class="heading-main">To Do List</h1>
+              <hr class="hr">
+              
+              <h1 class="heading">My Day</h1> 
+
+            <div>
+              <button id="btn" >☰</button>
+
+              <nav id="nav">
+                  <h1 id="theme" >Theme</h1>
+                  <hr>
+                  <ul id="bg-image">
+                      <li><img class="safari img" id="safari" src="./img/safari.jpg" height="80px" width="80px"></li>
+
+                      <li><img class="sky img" id="sky" src="./img/sky.jpg" height="80px" width="80px"></li>
+
+                      <li><img class="alone img" id="alone" src="./img/alone.jpg" height="80px" width="80px"></li>
+
+                      <li><img class="mountain img" id="mountain" src="./img/mountain.jpg" height="80px" width="80px"></li>
+
+                      <li><img class="zirve img" id="zirve" src="./img/zirve.jpg" height="80px" width="80px"></li>
+
+                      <li><img class="road img" id="road" src="./img/road.jpg" height="80px" width="80px"></li>
+                  </ul>
+              </nav>
+            </div>
+              <!-- <div id="bg">
+                <p>Do you want to change <br> background image?</p>
+                <select id="bg-image" onchange="changeTheme()">
+                  <option value="./img/safari.jpg">Safari</option>
+                  <option value="./img/sky.jpg">Sky</option> 
+                </select>
+              </div> -->
+
+              <br>
+              <!-- Aşağıya tarih eklenmektedir. -->
+              <h2 class="date" id="date"></h2>
+
+              <form id="form">
+                <input 
+                  type="text"
+                  id="input"
+                  class="input"
+                  placeholder="What Are You Doing Today?"
+                  autocomplete="off"
+                  />
+              </form>
+
+            <ul class="todos" id="todos"></ul>
+          
+       </body>
+      </html>
